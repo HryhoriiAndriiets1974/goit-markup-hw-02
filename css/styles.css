@@ -1,41 +1,46 @@
 :root {
+  /* колір вторинного тексту #757575 */
   --primary-text-color: #757575;
+  /* колір основного тексту #212121 */
   --title-text-color: #212121;
+  /* акцент #2196F3 */
   --accent-color: #2196f3;
 }
 body {
   /* font-family: 'Raleway', sans-serif; */
   font-family: 'Roboto', 'Raleway', sans-serif;
-  /* колір основного тексту #212121 */
-  /* колір вторинного тексту #757575 */
   /* фон білий #FFFFFF */
   /* вторичний колір фону #2196F3 */
-  /* акцент #2196F3 */
   background-color: #fff;
   color: var(--primary-text-color);
 }
 .list {
   list-style: none;
 }
+/* Шапка */
 .site-nav .link {
   color: var(--accent-color);
 }
 .site-nav .link:hover .site-nav .link:focus {
   color: var(--title-text-color);
 }
+/* Герой */
 .hero-title {
   color: var(--title-text-color);
 }
+/* Унікальна частина */
 .section-title {
   color: var(--title-text-color);
   font-size: 36px;
   line-height: 1.66667;
 }
+/* Переваги */
 .feature-list .title {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.7143;
 }
+/* Наші роботи */
 .work-list .title {
   color: var(--title-text-color);
   font-size: 18px;
@@ -43,4 +48,6 @@ body {
 }
 .work-list .col {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.875;
 }
