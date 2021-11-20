@@ -79,6 +79,9 @@ body {
 }
 .button-hero {
   color: var(--for-black-color);
+  font-size: 16px;
+  line-height: 1.875;
+  cursor: pointer;
 }
 /* Унікальна частина */
 .section-title {
@@ -107,4 +110,33 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.875;
+}
+/* Наша команда */
+.team .title {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.1875;
+}
+.team .spec {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.1875;
+}
+/* Підвал */
+.footer-contact {
+  color: var(--for-black-color);
+  font-size: 14px;
+  line-height: 1.714;
+}
+.footer-contact:hover,
+.footer-contact:focus,
+.footer-contact .mailto:hover,
+.footer-contact .mailto:focus,
+.footer-contact .tel:hover,
+.footer-contact .tel:focus {
+  color: var(--accent-color);
+}
+.footer-contact .mailto,
+.footer-contact .tel {
+  color: rgba(255, 255, 255, 0.6);
 }
