@@ -20,18 +20,18 @@ body {
 .list {
   list-style: none;
 }
-/* button */
-.button {
-}
 /* Логотип */
 .logo {
+  font-family: Raleway;
   color: var(--accent-color);
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
 }
 /* Шапка */
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
 }
@@ -74,24 +74,44 @@ body {
 } */
 .hero-title {
   color: var(--for-black-color);
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
 }
 .button-hero {
   color: var(--for-black-color);
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
   cursor: pointer;
 }
+.button-hero:hover,
+.button-hero:focus {
+  background: var(--accent-color);
+}
 /* Унікальна частина */
 .section-title {
   color: var(--title-text-color);
+  font-weight: bold;
   font-size: 36px;
   line-height: 1.66667;
+}
+.button {
+  color: var(--title-text-color);
+  background: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.625;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--primary-bg-color);
+  background: var(--accent-color);
 }
 /* Переваги */
 .feature-list .title {
   color: var(--title-text-color);
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.143;
 }
@@ -114,6 +134,7 @@ body {
 /* Наша команда */
 .team .title {
   color: var(--title-text-color);
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.1875;
 }
