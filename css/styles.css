@@ -40,7 +40,8 @@ body {
   color: var(--accent-color);
 }
 .auth-nav .link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
+  font-weight: 500px;
   font-size: 14px;
   line-height: 1.143;
 }
