@@ -45,9 +45,9 @@ body {
   color: var(--accent-color);
 }
 .auth-nav .link {
-  font-family: inherit;
+  font-family: Roboto;
   color: var(--primary-text-color);
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   text-decoration: none;
@@ -140,11 +140,13 @@ body {
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
+  text-decoration: none;
 }
 .work-list .col {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.875;
+  text-decoration: none;
 }
 /* Наша команда */
 .team .title {
@@ -152,11 +154,13 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.1875;
+  text-decoration: none;
 }
 .team .spec {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.1875;
+  text-decoration: none;
 }
 /* Підвал */
 .footer-contact {
