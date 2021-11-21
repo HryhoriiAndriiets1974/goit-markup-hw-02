@@ -27,10 +27,15 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
+  text-decoration: none;
+}
+.text-color {
+  color: var(--for-black-color);
 }
 /* Шапка */
 .site-nav .link {
   color: var(--title-text-color);
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -40,10 +45,12 @@ body {
   color: var(--accent-color);
 }
 .auth-nav .link {
+  font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--primary-text-color);
   font-weight: 500px;
   font-size: 14px;
   line-height: 1.143;
+  text-decoration: none;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -80,7 +87,10 @@ body {
   line-height: 1.364;
 }
 .button-hero {
-  color: var(--for-black-color);
+  color: #fff;
+  background: var(--accent-color);
+  border: none;
+  border-radius: 3px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
@@ -88,7 +98,7 @@ body {
 }
 .button-hero:hover,
 .button-hero:focus {
-  background: var(--accent-color);
+  background: #188CE8;
 }
 /* Унікальна частина */
 .section-title {
@@ -112,6 +122,7 @@ body {
 /* Переваги */
 .feature-list .title {
   color: var(--title-text-color);
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.143;
@@ -157,8 +168,10 @@ body {
 .footer-contact .tel:hover,
 .footer-contact .tel:focus {
   color: var(--accent-color);
+  text-decoration: none;
 }
 .footer-contact .mailto,
 .footer-contact .tel {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
