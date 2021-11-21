@@ -45,7 +45,7 @@ body {
   color: var(--accent-color);
 }
 .auth-nav .link {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: inherit;
   color: var(--primary-text-color);
   font-weight: 500px;
   font-size: 14px;
@@ -88,6 +88,7 @@ body {
 }
 .button-hero {
   color: #fff;
+  font-family: inherit;
   background: var(--accent-color);
   border: none;
   border-radius: 3px;
